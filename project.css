@@ -1,0 +1,108 @@
+body{
+    font-family: 'Baloo Bhai', cursive;
+    padding: 0px;
+    margin: 0px;
+    background: url('image.png');
+    color: rgba(15, 4, 4, 0.842);
+
+       
+}
+.left{
+       /* border: 2px solid rgb(0, 0, 0); */
+       display: inline-block;
+       padding: 10px;
+       margin-top: 10px;
+       left: 60px;
+       top: 20px;
+       border-radius: 10px;        
+}
+.mid{
+
+ /* border: 2px solid rgb(0, 0, 0); */
+ display: block;
+ width: 50%;
+ margin: auto;
+ position: relative;
+ margin-top: -120px;
+ border-radius: 10px;
+}
+.right
+{
+    /* border: 2px solid rgb(8, 8, 17); */
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.navbar{
+        display: inline-block;
+}
+.navbar li{
+        display: inline-block;
+        font-size: 25px;       
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px ;
+    text-align: center;
+}
+.navbar li a:hover {
+    color: rgb(116, 5, 11);
+   
+}
+.navbar li a:active{
+    color: rgb(116, 5, 11);
+    text-decoration: underline;
+}
+.left img{
+    width: 110px;
+    filter: invert(100%);   
+}
+.left div{
+    text-align: center;
+    font-size: 20px;
+    color:white;
+}
+.btn{
+    font-family: 'Baloo Bhai', cursive;
+    background-color: rgb(14, 114, 92);
+    color: rgb(5, 10, 34);
+    padding: 5px;
+    margin: 2px 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: grey;
+}
+.container{
+    /* border: 2px solid black;  */
+    margin-top:60px;
+    padding:50px;
+    width: 42%;
+    margin-left: 2px;
+    border-radius: 10px;
+}
+.form-group input{
+    font-family: 'Baloo Bhai', cursive;
+    width: 500px;
+    text-align:center ;
+    margin:2px auto;
+    display: block;
+    border-radius: 10px;
+    padding: 5px;
+}
+.container h1{
+    width: 500px;
+    text-align: center;
+    color: white;
+}
+.container button{
+    margin: auto;
+    display: block;
+    width: 25%;
+}
